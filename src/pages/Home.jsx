@@ -59,7 +59,7 @@ const Home = () => {
       </div>
       </section>
  
-    <div className="flex justify-center items-center pt-1 pb-10 mb-6 -mt-40">
+    <div className="flex justify-center items-center pt-1 pb-10 mb-6">
       <Portfolio/>
     </div>
     <div className="flex justify-center items-center">
