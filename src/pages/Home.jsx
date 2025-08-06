@@ -62,7 +62,7 @@ const Home = () => {
     <div className="flex justify-center items-center pt-1 pb-10 mb-6">
       <Portfolio/>
     </div>
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center pb-10">
       <Carousel/>
     </div>
     </div>
