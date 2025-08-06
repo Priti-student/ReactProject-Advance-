@@ -34,7 +34,7 @@ export default function Portfolio() {
       <h2 className="text-4xl text-[var(--text)] font-bold text-center mb-12">My Projects</h2>
 
       {/* Cards Grid */}
-      <div className="md:w-3/4 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div className="md:w-3/4 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto pb-10">
         {projects.map((project) => (
           <div
             key={project.id}
