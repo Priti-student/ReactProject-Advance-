@@ -16,7 +16,7 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div>
-          <h2 className="text-lg font-semibold text-[var(--body)] mb-3">Quick Links</h2>
+          <h2 className="text-lg font-semibold text-shadow-pink-700 mb-3">Quick Links</h2>
           <ul className="space-y-2">
             <li><a href="/" className="hover:text-yellow-400">Home</a></li>
             <li><a href="/about" className="hover:text-yellow-400">About</a></li>
@@ -27,7 +27,7 @@ export default function Footer() {
 
         {/* Social Links */}
         <div>
-          <h2 className="text-lg font-semibold text-[var(--body)] mb-3">Connect</h2>
+          <h2 className="text-lg font-semibold text-shadow-pink-700 mb-3">Connect</h2>
           <div className="flex gap-6 mt-6 text-4xl pb-10 ">
                 <a href="https://www.linkedin.com/in/priti-ram?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="hover:text-blue-600 transition duration-300" />
@@ -43,7 +43,7 @@ export default function Footer() {
 
       </div>
 
-      <div className="text-center text-[var(--footer-text)] text-sm mt-8 border-t border-gray-700 pt-4">
+      <div className="text-center text-[var(--footer-text)] text-sm border-t border-gray-700 pt-6">
         © {new Date().getFullYear()} MySite | All Rights Reserved
       </div>
     </footer>
