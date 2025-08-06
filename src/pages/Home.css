@@ -1,0 +1,33 @@
+@keyframes spinOnce {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.spin-once {
+  animation: spinOnce 0.8s linear;
+}
+.slide-in-left {
+  animation: slideInFromLeft 0.7s ease-out forwards;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(50);
+    opacity: 1;
+  }
+}
+#image-container {
+  transition: box-shadow 0.4s ease;
+}
+
+#image-container:hover {
+  box-shadow: 0 0 30px 10px rgb(126, 212, 238);
+}
