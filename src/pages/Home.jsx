@@ -1,5 +1,6 @@
 import "./Home.css";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import profilePic from "../assets/profile.jpg";
 import Carousel from "./Carousel";
 import Portfolio from "./Portfolio";
@@ -41,18 +42,18 @@ const Home = () => {
 
 
       <div className="flex justify-center items-center md:justify-start p-6 gap-4">
-      <a
-        href="/About"
+      <Link
+        to="/About"
         className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
       >
         About
-      </a>
-      <a
-        href="/Contact"
+      </Link>
+      <Link
+        to="/Contact"
         className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
       >
         Contact
-      </a>
+      </Link>
       </div>
 
 

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import profilePic from "../assets/profilepic.jpg";
 
 export default function About() {
@@ -46,12 +47,12 @@ export default function About() {
         </div>
       </div>
 
-      <a
-        href="/Contact"
+      <Link
+        to="/Contact"
         className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300 transition"
       >
         Contact
-      </a>
+      </Link>
     </div>
   );
 }
